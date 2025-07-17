@@ -152,12 +152,10 @@ const Index = () => {
                         {bid.status === 'hot' ? '🔥 Горячий' : 'Активный'}
                       </Badge>
                     </div>
-                    <CardDescription>
-                      <div className="flex items-center space-x-2">
-                        <Icon name="Clock" size={16} />
-                        <span>Осталось: {bid.timeLeft}</span>
-                      </div>
-                    </CardDescription>
+                    <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                      <Icon name="Clock" size={16} />
+                      <span>Осталось: {bid.timeLeft}</span>
+                    </div>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3">

@@ -28,9 +28,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-auction-orange to-auction-blue rounded-lg flex items-center justify-center">
-                <Icon name="Gavel" size={18} className="text-white" />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/2a91cfb2-c110-4e2d-b832-b6c012f80025.png" 
+                alt="BidReverse Logo" 
+                className="w-8 h-8 object-contain"
+              />
               <span className="text-xl font-bold text-auction-dark">BidReverse</span>
             </div>
             <nav className="hidden md:flex space-x-8">
@@ -270,9 +272,11 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-auction-orange to-auction-blue rounded-lg flex items-center justify-center">
-                  <Icon name="Gavel" size={18} className="text-white" />
-                </div>
+                <img 
+                  src="https://cdn.poehali.dev/files/2a91cfb2-c110-4e2d-b832-b6c012f80025.png" 
+                  alt="BidReverse Logo" 
+                  className="w-8 h-8 object-contain"
+                />
                 <span className="text-xl font-bold">BidReverse</span>
               </div>
               <p className="text-gray-300 text-sm">

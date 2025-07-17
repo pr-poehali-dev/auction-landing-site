@@ -30,10 +30,10 @@ const Index = () => {
             <div className="flex items-center space-x-2">
               <img 
                 src="https://cdn.poehali.dev/files/2a91cfb2-c110-4e2d-b832-b6c012f80025.png" 
-                alt="BidReverse Logo" 
+                alt="One Bid Logo" 
                 className="w-8 h-8 object-contain"
               />
-              <span className="text-xl font-bold text-auction-dark">BidReverse</span>
+              <span className="text-xl font-bold text-auction-dark">One Bid</span>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#" className="text-auction-dark hover:text-auction-orange transition-colors">Главная</a>
@@ -274,10 +274,10 @@ const Index = () => {
               <div className="flex items-center space-x-2 mb-4">
                 <img 
                   src="https://cdn.poehali.dev/files/2a91cfb2-c110-4e2d-b832-b6c012f80025.png" 
-                  alt="BidReverse Logo" 
+                  alt="One Bid Logo" 
                   className="w-8 h-8 object-contain"
                 />
-                <span className="text-xl font-bold">BidReverse</span>
+                <span className="text-xl font-bold">One Bid</span>
               </div>
               <p className="text-gray-300 text-sm">
                 Революционная платформа для торговли, где покупатели устанавливают цены.
@@ -309,7 +309,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
-            © 2024 BidReverse. Все права защищены.
+            © 2024 One Bid. Все права защищены.
           </div>
         </div>
       </footer>

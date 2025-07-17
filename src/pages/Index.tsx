@@ -74,7 +74,7 @@ const Index = () => {
             </div>
             <div className="relative mx-auto max-w-3xl">
               <img 
-                src="/img/75b40498-ff77-419a-a871-951c1671f195.jpg" 
+                src="/img/c8e0c68c-ace2-4e26-bfbf-ee38b1f9f2bd.jpg" 
                 alt="Аукцион платформа" 
                 className="rounded-2xl shadow-2xl animate-fade-in"
               />
